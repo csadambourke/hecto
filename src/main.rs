@@ -15,6 +15,7 @@ use editor::Editor;
 pub use document::Document;
 pub use terminal::Terminal;
 pub use editor::Position;
+pub use editor::SearchDirection;
 pub use row::Row;
 
 fn main() {
