@@ -20,7 +20,6 @@ impl Document {
         let mut rows = Vec::new();
         for value in contents.lines() {
             let mut row = Row::from(value);
-            row.highlight(None);
             row.highlight(file_type.highlighting_options(), None);
             rows.push(row);
         }
